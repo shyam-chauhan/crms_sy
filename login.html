@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  background= "back/res.png">
+    
+    <link rel="stylesheet" href="css/login.css">
+<center>
+   <div class="table">
+    <form method="POST" action="login.php">
+
+        
+        <table>
+        <div class="li">
+            <tr>
+                <th><h1 id="adm"> Login</h1></th>
+            </tr>
+            <tr>
+                <th id="al"><br>Login id :</th><br>
+                <td><br><input type="text" name="userid" placeholder="Enter ID here" required></td>
+            </tr>
+            
+        </div>
+            <tr>
+                <th id="al"><br>Password :</th>
+                <td><br><input type="password" name="password" placeholder="Enter password here" required></td>
+            </tr>
+            
+            <tr>
+                <th id="al"><br>Login Type :</th>
+                <td><br><select name = "lt">
+                    <option value = "user" selected>User</option>
+                    <option value = "admin" >Admin</option>
+            </select></td>
+            </tr>
+
+            <tr>
+                
+               <td><br><input type="submit" value="Login" id="button" name="login"></td>
+            </tr>
+           
+        </table>
+    </div>
+    </form>
+</center>
+</html> 

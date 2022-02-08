@@ -1,0 +1,26 @@
+
+.table {
+
+    /* border: 5px inset white; */
+    /* align-items: center; */
+    /* width: 500px; */
+    /* height: 350px; */
+    margin-top: 100px;
+}
+
+#button {
+
+    margin-left: 175px;
+    padding: 7px;
+    font-size: 15px;
+}
+#usr {
+    margin-left: 70px;
+}
+#al {
+    color: yellow;
+}
+#adm {
+    color: white;
+    margin-left: 70px;
+}

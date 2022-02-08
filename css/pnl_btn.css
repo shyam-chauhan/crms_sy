@@ -1,0 +1,31 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#btn {
+    font-size: 20px;
+    background-color: rgb(0, 255, 242);
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+}
+
+#lbtn {
+
+    font-size: 20px;
+    background-color: yellow;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    color :red;
+}

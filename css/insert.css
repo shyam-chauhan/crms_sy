@@ -1,0 +1,40 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.tbl {
+    margin-left: 10px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: none;
+    float: left;
+    width:50%;
+    margin-bottom: 30px;
+}
+#submit {
+    padding: 4px 41px;
+      margin: 10px;
+      border: 2px solid  red;
+      border-radius: 10px;
+      font-size: 18px;
+      background: none;
+      color:white;
+      cursor: pointer;
+      margin-left: 150px;
+      margin-top: 100px; 
+}
+#submit:hover {
+        color: black;
+      background-color: white;
+}
+.tbl {
+    margin-left: 10px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: none;
+    float: left;
+    width:50%
+}
